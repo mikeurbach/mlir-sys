@@ -9,5 +9,10 @@ readme = "README.md"
 links = "MLIR"
 license-file = "LICENSE"
 
+[features]
+default = ["llvm17-0"]
+llvm17-0 = []
+llvm-trunk = []
+
 [build-dependencies]
 bindgen = "0.69.4"
